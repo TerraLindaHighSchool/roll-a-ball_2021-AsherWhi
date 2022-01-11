@@ -32,8 +32,8 @@ public class PlayerController : MonoBehaviour
     {
         Vector2 movementVector = movementValue.Get<Vector2>();
 
-        movementX = -movementVector.y;
-        movementY = movementVector.x;
+        movementX = movementVector.x;
+        movementY = movementVector.y;
     }
 
 
